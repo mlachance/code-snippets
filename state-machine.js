@@ -1,3 +1,9 @@
+/**
+ * The following is designed to allow for using states to chain database requests that would otherwise be asychronous
+ * 
+ * 
+ */
+
 var states={"STATE1":0, "STATE2":1, "STATE3":3};
 var myDB = openDatabase("Web DB", "1.0", "My Test DB", 1024*1024);
 function getSomething() {
